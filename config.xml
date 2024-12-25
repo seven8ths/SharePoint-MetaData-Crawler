@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<crawler>
+	<connection Url="" ClientId="" Thumbprint="" Tenant="" AdminUrl="" />
+	<sites>
+		<exclusions>
+			<template>BLANKINTERNET#0</template>
+			<template>SRCHCEN#0</template>
+			<template>SPSMSITEHOST#0</template>
+			<template>APPCATALOG#0</template>
+			<template>POINTPUBLISHINGHUB#0</template>
+			<template>EDISC#0</template>
+			<template>STS#-1</template>
+			<template>SPSPERS#6</template>
+			<template>SPSPERS#9</template>
+		</exclusions>
+	</sites>
+	<webs>
+		<properties>
+			<property>AssociatedOwnerGroup</property>
+			<property>AssociatedMemberGroup</property>
+			<property>CurrentUser</property>
+			<property>EffectiveBasePermissions</property>
+			<property>HasUniqueRoleAssignments</property>
+			<property>LastItemModifiedDate</property>
+			<property>LastItemUserModifiedDate</property>
+			<property>ParentWeb</property>
+			<property>RoleAssignments</property>
+			<property>RoleDefinitions</property>
+			<property>ParentWeb</property>
+			<property>SiteGroups</property>
+			<property>SiteUserInfoList</property>
+			<property>SiteUsers</property>
+			<property>Title</property>
+			<property>Webs</property>
+			<property>WorkflowAssociations</property>
+		</properties>
+	</webs>
+	<lists>
+		<exclusions>
+			<title>Access Requests</title>
+			<title>App Packages</title>
+			<title>appdata</title>
+			<title>appfiles</title>
+			<title>Apps in Testing</title>
+			<title>Cache Profiles</title>
+			<title>Composed Looks</title>
+			<title>Content and Structure Reports</title>
+			<title>Content type publishing error log</title>
+			<title>Converted Forms</title>
+			<title>Device Channels</title>
+			<title>Form Templates</title>
+			<title>fpdatasources</title>
+			<title>Get started with Apps for Office and SharePoint</title>
+			<title>List Template Gallery</title>
+			<title>Long Running Operation Status</title>
+			<title>Maintenance Log Library</title>
+			<title>Images</title>
+			<title>site collection images</title>
+			<title>Master Docs</title>
+			<title>Master Page Gallery</title>
+			<title>MicroFeed</title>
+			<title>NintexFormXml</title>
+			<title>Quick Deploy Items</title>
+			<title>Relationships List</title>
+			<title>Reusable Content</title>
+			<title>Reporting Metadata</title>
+			<title>Reporting Templates</title>
+			<title>Search Config List</title>
+			<title>Preservation Hold Library</title>
+			<title>Site Pages</title>
+			<title>Solution Gallery</title>
+			<title>Style Library</title>
+			<title>Suggested Content Browser Locations</title>
+			<title>Theme Gallery</title>
+			<title>TaxonomyHiddenList</title>
+			<title>User Information List</title>
+			<title>Web Part Gallery</title>
+			<title>wfpub</title>
+			<title>wfsvc</title>
+			<title>Workflow History</title>
+			<title>Workflow Tasks</title>
+			<title>Pages</title>
+		</exclusions>
+		<properties>
+			<property>HasUniqueRoleAssignments</property>
+		</properties>
+	</lists>
+</crawler>
